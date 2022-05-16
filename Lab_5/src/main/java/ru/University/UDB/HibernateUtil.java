@@ -1,3 +1,5 @@
+package ru.University.UDB;
+
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
