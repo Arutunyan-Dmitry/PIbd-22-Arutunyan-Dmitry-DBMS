@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.sql.Date;
+import java.time.LocalDate;
 import java.util.Objects;
 
 @Entity
@@ -28,7 +29,7 @@ public class Teacher {
     private Integer educationLicense;
     @Basic
     @Column(name = "gettig_started", nullable = false)
-    private Date gettigStarted;
+    private LocalDate gettigStarted;
     @Basic
     @Column(name = "discipline_id", nullable = true)
     private Integer disciplineId;

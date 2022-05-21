@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.sql.Date;
+import java.time.LocalDate;
 import java.util.Objects;
 
 @Entity
@@ -25,7 +26,7 @@ public class Student {
     private Integer tin;
     @Basic
     @Column(name = "date_of_birth", nullable = false)
-    private Date dateOfBirth;
+    private LocalDate dateOfBirth;
     @Basic
     @Column(name = "flm", nullable = false, length = 150)
     private String flm;

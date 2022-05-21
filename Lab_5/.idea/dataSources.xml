@@ -8,5 +8,16 @@
       <jdbc-url>jdbc:postgresql://[fe80::a00:27ff:fe63:3f8a]:5432/University-Data-Base</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="fc284732-53ec-4c94-abdb-f202b79f739b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/Labs/3 СУБД/Lab_5/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://[fe80::a00:27ff:fe63:3f8a]:5432/University-Data-Base</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

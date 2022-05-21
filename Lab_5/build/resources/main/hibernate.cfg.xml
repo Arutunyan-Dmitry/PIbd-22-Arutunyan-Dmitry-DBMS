@@ -10,7 +10,14 @@
         <property name="connection.password">24062002</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
         <property name="hibernate.show_sql">true</property>
-        <mapping class="ru.University.UDB.entity.Faculty"/>
+        <mapping class="ru.University.UDB.entity.models.Faculty"/>
+        <mapping class="ru.University.UDB.entity.models.AcademicalPerformance"/>
+        <mapping class="ru.University.UDB.entity.models.Department"/>
+        <mapping class="ru.University.UDB.entity.models.Discipline"/>
+        <mapping class="ru.University.UDB.entity.models.Gruppa"/>
+        <mapping class="ru.University.UDB.entity.models.Stream"/>
+        <mapping class="ru.University.UDB.entity.models.Student"/>
+        <mapping class="ru.University.UDB.entity.models.Teacher"/>
 
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
